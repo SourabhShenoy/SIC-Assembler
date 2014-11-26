@@ -39,9 +39,10 @@ void TWOPASS::pass1()
          //writing into intermediate file
        f1>>label>>opcode>>operand;
     }
-    else if(strcmp(opcode,"")==0)
+    else //if(strcmp(opcode,"")==0)
     {
         loc=0000;
+		start=0000;
     }
     //start=0000;
      //Else set location to 0
